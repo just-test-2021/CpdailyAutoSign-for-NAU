@@ -10,7 +10,7 @@
 ### index.py 完成自动提交的py脚本，一般来说不用更改。
 
 ## 食用方法
-clone 或者[下载]()此仓库到本地
+clone 或者[下载](https://codeload.github.com/just-test-2021/CpdailyAutoSign-for-NAU/zip/main)此仓库到本地
 https://github.com/just-test-2021/CpdailyAutoSign-for-NAU.git
 打开本地仓库文件夹，配置config.yml中对应的学号（username）和密码（password）还有地址（address）等等信息，详情请看config_nau.yml中的注释说明，注意这里的学号和密码都是今日校园的学号和密码
 
