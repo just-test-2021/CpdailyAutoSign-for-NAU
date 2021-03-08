@@ -31,6 +31,7 @@ https://github.com/just-test-2021/CpdailyAutoSign-for-NAU.git
 ![Image text](https://github.com/just-test-2021/CpdailyAutoSign-for-NAU/blob/main/pictures/Snipaste_2021-03-08_20-47-09.png)
 
 进入新建好的云函数，左边点击触发管理，点击创建触发器，名称随意，触发周期选择自定义，然后配置cron表达式，下面的表达式表示每天晚上21点整执行
+
 0 0 21 * * * *
 
 然后就可以测试云函数了，绿色代表云函数执行成功，红色代表云函数执行失败（失败的原因大部分是由于依赖造成的）。返回结果是success.，代表自动提交成功，如遇到问题，请仔细查看日志
