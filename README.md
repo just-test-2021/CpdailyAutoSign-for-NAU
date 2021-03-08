@@ -21,7 +21,9 @@ https://github.com/just-test-2021/CpdailyAutoSign-for-NAU.git
 ![Image text](https://github.com/just-test-2021/CpdailyAutoSign-for-NAU/blob/main/pictures/ed6044e6.png)
 
 点左边的函数服务，新建云函数，名称随意，运行环境选择python3.6，创建方式选择空白函数，然后点击下一步
-![Image text](https://github.com/just-test-2021/CpdailyAutoSign-for-NAU/blob/main/pictures/a971478e.png)
+![Image text](https://github.com/just-test-2021/CpdailyAutoSign-for-NAU/blob/main/pictures/Snipaste_2021-03-09_00-23-41.png)
+
+![Image text](https://github.com/just-test-2021/CpdailyAutoSign-for-NAU/blob/main/pictures/Snipaste_2021-03-09_00-24-24.png)
 
 提交方法选择在线编辑，把本地修改好的index.py直接全文复制粘贴到云函数的index.py，然后点击文件->新建，文件名命名为config_nau.yml，然后把本地配置好的config_nau.yml文件中的内容直接全文复制粘贴到云函数的config_nau.yml文件，点击下面的高级设置，设置超时时间为90秒，添加层为刚刚新建的函数依赖层，然后点击完成
 
