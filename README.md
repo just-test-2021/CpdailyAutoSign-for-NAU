@@ -27,7 +27,9 @@ https://github.com/just-test-2021/CpdailyAutoSign-for-NAU.git
 
 提交方法选择在线编辑，把本地修改好的index.py直接全文复制粘贴到云函数的index.py，然后点击文件->新建，文件名命名为config_nau.yml，然后把本地配置好的config_nau.yml文件中的内容直接全文复制粘贴到云函数的config_nau.yml文件，点击下面的高级设置，设置超时时间为90秒，添加层为刚刚新建的函数依赖层，然后点击完成
 
-![Image text](https://github.com/just-test-2021/CpdailyAutoSign-for-NAU/blob/main/pictures/1aa80c41.png)
+![Image text](https://github.com/just-test-2021/CpdailyAutoSign-for-NAU/blob/main/pictures/Snipaste_2021-03-09_00-28-30.png)
+
+![Image text](https://github.com/just-test-2021/CpdailyAutoSign-for-NAU/blob/main/pictures/Snipaste_2021-03-09_00-28-50.png)
 
 后可以点击部署测试查看日志输出是否成功
 ![Image text](https://github.com/just-test-2021/CpdailyAutoSign-for-NAU/blob/main/pictures/Snipaste_2021-03-08_20-47-09.png)
