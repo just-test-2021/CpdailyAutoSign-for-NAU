@@ -34,9 +34,8 @@ cpdaily:
   #附加信息组默认选项配置，没有可留空
   defaults:
   #附加信息组默认选项配置，按顺序，可留空
-      - default:
-          #表单项标题
-          title: 请填报体温
-          #表单项默认值
-          type: 1
-          value: 36.5
+    - default:
+        other: '36.3'
+        title: 请填报体温
+        value: 其它
+
